@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.nav {
+  margin: 10px 5px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shop_page,
+form {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.shops_list {
+  margin: 0 5px;
+  width: 20%;
+  height: 80vh;
+  border: 1px solid black;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.shop {
+  width: 150px;
+  height: 50px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.shop:hover {
+  cursor: pointer;
+  color: darkgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shop_cards_list {
+  margin: 0 5px;
+  width: 80%;
+  height: 80vh;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.card {
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+
+button,
+.card > input {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+.shop_cards_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop_cards_list p {
+  margin: auto;
+}
+
+fieldset {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+input {
+  height: 30px;
+}
+
+footer {
+  width: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  display: flex;
 }
