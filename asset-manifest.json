@@ -1,15 +1,31 @@
 {
   "files": {
-    "main.css": "/delivery-app/static/css/main.30205b7c.css",
-    "main.js": "/delivery-app/static/js/main.f3933173.js",
+    "main.css": "/delivery-app/static/css/main.41674d35.css",
+    "main.js": "/delivery-app/static/js/main.39f7ac45.js",
     "static/js/787.c655f260.chunk.js": "/delivery-app/static/js/787.c655f260.chunk.js",
+    "static/media/Teriyaki.jpg": "/delivery-app/static/media/Teriyaki.c8586f8b80ed800ad917.jpg",
+    "static/media/california.jpeg": "/delivery-app/static/media/california.507ecdc6499e3d5d5ae3.jpeg",
+    "static/media/red-dragon.jpeg": "/delivery-app/static/media/red-dragon.7f01b6b255d9dc418c46.jpeg",
+    "static/media/green-dragon.jpeg": "/delivery-app/static/media/green-dragon.3f5722ec77730bb2d04f.jpeg",
+    "static/media/filadelfiya-original.jpg": "/delivery-app/static/media/filadelfiya-original.96f87c87efde21a88375.jpg",
+    "static/media/boxmaster.png": "/delivery-app/static/media/boxmaster.2bcc24d4dc7569c1fc1f.png",
+    "static/media/Chicken .jpeg": "/delivery-app/static/media/Chicken .d6c5066b62f15b50499a.jpeg",
+    "static/media/Fish.jpeg": "/delivery-app/static/media/Fish.4107f3155745c0e3c212.jpeg",
+    "static/media/Salsa_Burger.png": "/delivery-app/static/media/Salsa_Burger.e22a6e44c264b28b2958.png",
+    "static/media/Whopper.jpeg": "/delivery-app/static/media/Whopper.fad926a098f539dcaffa.jpeg",
+    "static/media/BBQ_Beefacon .jpeg": "/delivery-app/static/media/BBQ_Beefacon .31b19347d122cda2a2e3.jpeg",
+    "static/media/Tacos_Cheese.png": "/delivery-app/static/media/Tacos_Cheese.8aca1378a56d60b880e0.png",
+    "static/media/twister_salsa.png": "/delivery-app/static/media/twister_salsa.20d8d94e84d46ac91bda.png",
+    "static/media/Capricciosa.jpeg": "/delivery-app/static/media/Capricciosa.338d19fcfda6c35259e5.jpeg",
+    "static/media/Four_cheese.jpeg": "/delivery-app/static/media/Four_cheese.845ce69067fe2573795d.jpeg",
+    "static/media/steak_House.jpeg": "/delivery-app/static/media/steak_House.40122d16dffc2b23b1b5.jpeg",
     "index.html": "/delivery-app/index.html",
-    "main.30205b7c.css.map": "/delivery-app/static/css/main.30205b7c.css.map",
-    "main.f3933173.js.map": "/delivery-app/static/js/main.f3933173.js.map",
+    "main.41674d35.css.map": "/delivery-app/static/css/main.41674d35.css.map",
+    "main.39f7ac45.js.map": "/delivery-app/static/js/main.39f7ac45.js.map",
     "787.c655f260.chunk.js.map": "/delivery-app/static/js/787.c655f260.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30205b7c.css",
-    "static/js/main.f3933173.js"
+    "static/css/main.41674d35.css",
+    "static/js/main.39f7ac45.js"
   ]
 }
