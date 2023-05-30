@@ -2,8 +2,10 @@ import { ProductsList } from "./ProductsList";
 import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { ContextTotal } from "../../lib/totalCount";
+import { useNavigate } from "react-router-dom";
 
 export const UserForm = () => {
+  const navigate = useNavigate();
   const [totalCount, setTotalCount] = useContext(ContextTotal);
   const form = useForm({
     mode: "onTouched",
@@ -11,8 +13,9 @@ export const UserForm = () => {
   const onSubmit = form.handleSubmit((data) => {
     localStorage.setItem("user", JSON.stringify(data));
     localStorage.setItem("total", totalCount);
-    form.reset();
     setTotalCount(0);
+    form.reset();
+    navigate("/shop");
   });
 
   return (

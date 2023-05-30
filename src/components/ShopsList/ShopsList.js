@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Context } from "../../lib/selectedShop";
-import { shops } from "../mock-data";
+import { shops } from "../../mock-data";
 
 export const ShopsList = () => {
   const [, setSelectedShopId] = useContext(Context);

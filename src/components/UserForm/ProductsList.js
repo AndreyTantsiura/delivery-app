@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ContextCard } from "../../lib/selectedCard";
 import { ContextTotal } from "../../lib/totalCount";
-import { shops } from "../mock-data";
+import { shops } from "../../mock-data";
 
 export const ProductsList = () => {
   const [selectedCard] = useContext(ContextCard);
@@ -24,7 +24,7 @@ export const ProductsList = () => {
         if (id === product.name) {
           return (
             <div className="card" key={product.name}>
-              <img src="#" alt={product.img} />
+              <img src={product.img} alt={product.name} />
               <p>{product.name}</p>
               <input
                 className="total"

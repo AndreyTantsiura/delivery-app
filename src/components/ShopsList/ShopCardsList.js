@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Context } from "../../lib/selectedShop";
 import { ContextCard } from "../../lib/selectedCard";
-import { shops } from "../mock-data";
+import { shops } from "../../mock-data";
 
 export const ShopCardsList = () => {
   const [selectedShopId] = useContext(Context);
@@ -15,7 +15,7 @@ export const ShopCardsList = () => {
         };
         return (
           <div className="card" key={name}>
-            <img src="#" alt={img} />
+            <img src={img} alt={name} />
             <p>{name}</p>
             <button onClick={handleClick}>add to Cart</button>
           </div>
