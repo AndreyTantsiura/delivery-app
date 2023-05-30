@@ -1,3 +1,7 @@
+# Getting a link to the deployment page this project
+
+https://andreytantsiura.github.io/delivery-app/#/shop
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
