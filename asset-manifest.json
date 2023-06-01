@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/delivery-app/static/css/main.41674d35.css",
-    "main.js": "/delivery-app/static/js/main.39f7ac45.js",
+    "main.css": "/delivery-app/static/css/main.4638b319.css",
+    "main.js": "/delivery-app/static/js/main.efdafb7c.js",
     "static/js/787.c655f260.chunk.js": "/delivery-app/static/js/787.c655f260.chunk.js",
     "static/media/Teriyaki.jpg": "/delivery-app/static/media/Teriyaki.c8586f8b80ed800ad917.jpg",
     "static/media/california.jpeg": "/delivery-app/static/media/california.507ecdc6499e3d5d5ae3.jpeg",
@@ -20,12 +20,12 @@
     "static/media/Four_cheese.jpeg": "/delivery-app/static/media/Four_cheese.845ce69067fe2573795d.jpeg",
     "static/media/steak_House.jpeg": "/delivery-app/static/media/steak_House.40122d16dffc2b23b1b5.jpeg",
     "index.html": "/delivery-app/index.html",
-    "main.41674d35.css.map": "/delivery-app/static/css/main.41674d35.css.map",
-    "main.39f7ac45.js.map": "/delivery-app/static/js/main.39f7ac45.js.map",
+    "main.4638b319.css.map": "/delivery-app/static/css/main.4638b319.css.map",
+    "main.efdafb7c.js.map": "/delivery-app/static/js/main.efdafb7c.js.map",
     "787.c655f260.chunk.js.map": "/delivery-app/static/js/787.c655f260.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41674d35.css",
-    "static/js/main.39f7ac45.js"
+    "static/css/main.4638b319.css",
+    "static/js/main.efdafb7c.js"
   ]
 }
