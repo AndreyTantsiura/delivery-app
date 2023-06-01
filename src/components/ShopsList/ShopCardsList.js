@@ -1,4 +1,7 @@
+//Core
 import { useContext } from "react";
+
+//Instruments
 import { Context } from "../../lib/selectedShop";
 import { ContextCard } from "../../lib/selectedCard";
 import { shops } from "../../mock-data";
@@ -17,7 +20,9 @@ export const ShopCardsList = () => {
           <div className="card" key={name}>
             <img src={img} alt={name} />
             <p>{name}</p>
-            <button onClick={handleClick}>add to Cart</button>
+            <button className="addCard" onClick={handleClick}>
+              add to Cart
+            </button>
           </div>
         );
       });

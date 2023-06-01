@@ -1,4 +1,7 @@
+//Core
 import { useContext } from "react";
+
+//Instruments
 import { ContextCard } from "../../lib/selectedCard";
 import { ContextTotal } from "../../lib/totalCount";
 import { shops } from "../../mock-data";

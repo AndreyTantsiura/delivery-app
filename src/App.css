@@ -64,7 +64,8 @@ form {
   margin-top: 10px;
 }
 
-button,
+.addCard,
+.submit,
 .card > input {
   position: absolute;
   right: 10px;
