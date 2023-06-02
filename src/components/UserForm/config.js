@@ -1,8 +1,8 @@
 /* eslint-disable no-template-curly-in-string */
 import * as yup from "yup";
 
-const tooMinSymbolsMessage = "Max length ${min} symbols";
-const tooMaxSymbolsMessage = "Min length ${min} symbols";
+const tooMinSymbolsMessage = "Min length ${min} symbols";
+const tooMaxSymbolsMessage = "Max length ${max} symbols";
 
 export const schema = yup.object().shape({
   name: yup
