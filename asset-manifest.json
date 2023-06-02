@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/delivery-app/static/css/main.4638b319.css",
-    "main.js": "/delivery-app/static/js/main.efdafb7c.js",
+    "main.js": "/delivery-app/static/js/main.d7c1f62c.js",
     "static/js/787.c655f260.chunk.js": "/delivery-app/static/js/787.c655f260.chunk.js",
     "static/media/Teriyaki.jpg": "/delivery-app/static/media/Teriyaki.c8586f8b80ed800ad917.jpg",
     "static/media/california.jpeg": "/delivery-app/static/media/california.507ecdc6499e3d5d5ae3.jpeg",
@@ -21,11 +21,11 @@
     "static/media/steak_House.jpeg": "/delivery-app/static/media/steak_House.40122d16dffc2b23b1b5.jpeg",
     "index.html": "/delivery-app/index.html",
     "main.4638b319.css.map": "/delivery-app/static/css/main.4638b319.css.map",
-    "main.efdafb7c.js.map": "/delivery-app/static/js/main.efdafb7c.js.map",
+    "main.d7c1f62c.js.map": "/delivery-app/static/js/main.d7c1f62c.js.map",
     "787.c655f260.chunk.js.map": "/delivery-app/static/js/787.c655f260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4638b319.css",
-    "static/js/main.efdafb7c.js"
+    "static/js/main.d7c1f62c.js"
   ]
 }
